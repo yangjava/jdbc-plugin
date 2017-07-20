@@ -16,18 +16,11 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
+import com.java.jdbc.handler.BeanHandler;
+import com.java.jdbc.handler.PreparedStatementHandler;
+import com.java.jdbc.handler.ResultSetHandler;
 
-/**
- * 
- * 
- * @Description: 访问数据库的工具，支持Oracle和MYSQL
- * @Copyright: Copyright (c) 2015 FFCS All Rights Reserved
- * @Company: 北京福富软件有限公司
- * @author 黄君毅 
- * @version 1.0.3
- * @history:
- * 
- */
+
 public class Memory {
 
 	private DataSource ds;
